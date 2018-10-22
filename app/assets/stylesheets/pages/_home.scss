@@ -1,6 +1,15 @@
 .item{
-  height: 200px;
-  width: 500px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
 }
 
 
