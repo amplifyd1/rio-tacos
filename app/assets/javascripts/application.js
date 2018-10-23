@@ -2,6 +2,6 @@
 //= require_tree .
 $(function(){
     $('.carousel').carousel({
-      interval: 1000
+      interval: 500
     });
 });

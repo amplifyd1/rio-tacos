@@ -1,35 +1,13 @@
 <div class="home-wrapper">
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-
 
 <div id="carousel-food" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
- <!--  <ol class="carousel-indicators">
-    <li data-target="#carousel-food" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-food" data-slide-to="1"></li>
-    <li data-target="#carousel-food" data-slide-to="2"></li>
-  </ol> -->
-
-  <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <%= cl_image_tag 'tacos.png' %>
+      <%= cl_image_tag('tacos.png', :width=>1600, :crop=>"scale") %>
     </div>
     <div class="item">
-      <%= cl_image_tag 'tacos.png' %>
-    </div>
-    <div class="item">
-      <%= cl_image_tag 'sample.png' %>
+      <%= cl_image_tag("salad.jpg", :width=>1600, :crop=>"scale") %>
     </div>
   </div>
-
-  <!-- Controls -->
-  <!-- <a class="left carousel-control" href="#carousel-food" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-food" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a> -->
-</div>
+  </div>
 </div>
