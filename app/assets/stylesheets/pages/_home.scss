@@ -16,4 +16,27 @@
   padding-top:10px;
   padding-bottom: 10px;
 }
+
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  }
+
+.btn-container {
+  padding:20px;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-warning {
+  border-radius: 5px;
+}
+
 // Specific CSS for your home-page
