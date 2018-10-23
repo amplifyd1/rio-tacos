@@ -1,3 +1,13 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<%= cl_image_tag 'tacos.jpg' %>
+<div class="home-wrapper">
+
+<div id="carousel-food" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="item active">
+      <%= cl_image_tag('tacos.png', :width=>1600, :crop=>"scale") %>
+    </div>
+    <div class="item">
+      <%= cl_image_tag("salad.jpg", :width=>1600, :crop=>"scale") %>
+    </div>
+  </div>
+  </div>
+</div>

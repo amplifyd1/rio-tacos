@@ -1,1 +1,19 @@
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
+  width: 100%;
+  margin: 0!important
+}
+
+.carousel,.item,.active{
+   height:100%;
+   width: 100%;
+   padding:0!important;
+ }
+
+.carousel-slide {
+  padding-top:10px;
+  padding-bottom: 10px;
+}
 // Specific CSS for your home-page
