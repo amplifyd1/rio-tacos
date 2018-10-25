@@ -39,4 +39,33 @@
   border-radius: 5px;
 }
 
+.story-container{
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.story-wrapper{
+  background-color: #e3e9f2;
+  h1{
+    text-align: center;
+    font-weight: bold;
+  }
+  h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  p{
+    text-align: center;
+    margin-right:50px;
+    margin-left: 50px;
+  }
+}
+
+.story-subhead{
+  margin-bottom: 20px;
+}
+
+.head-story h1{
+}
+
 // Specific CSS for your home-page
