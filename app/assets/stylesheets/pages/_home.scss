@@ -61,8 +61,15 @@
   }
 }
 
-.story-subhead{
+.story {
+  display: flex;
+}
+
+.story {
+  margin-top: 50px;
+  h3{
   margin-bottom: 20px;
+  }
 }
 
 .head-story h1{
