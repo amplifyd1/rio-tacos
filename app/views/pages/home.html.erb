@@ -1,9 +1,9 @@
-<div class="home-wrapper">
+<div class="home-wrapper ">
 
 <div id="carousel-food" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="item active">
-  <%= cl_image_tag("tacosrb.jpg", :height => 500, :width=>1600, :crop=>"scale") %>
+    <%= cl_image_tag("tacosrb.jpg", :height => 500, :width=>1600, :crop=>"scale") %>
     </div>
     <div class="item">
       <%= cl_image_tag("taco_close.jpg", :height => 500, :width=>1600, :crop=>"scale") %>
@@ -23,9 +23,9 @@
     <div class="head-story">
       <h1>Authentic Tacos and Mexican Food</h1>
     </div>
-    <div class="story">
-      <div class="fernando">
-      <%= cl_image_tag("IMG-20180826-WA0001.jpg", :height=>500, :crop=>"scale") %>
+    <div class="container story">
+      <div class="fernando hidden-sm hidden-xs">
+      <%= cl_image_tag("IMG-20180826-WA0001.jpg", :height=>300, :crop=>"scale") %>
       </div>
       <div>
         <h3>The Rio Story</h3>
@@ -36,4 +36,10 @@
     </div>
   </div>
   </div>
+  <div class="gallery-container">
+    <div class="gal-image">
+    <%= cl_image_tag("vegs.jpg", :height => 500, :width=>1600, :crop=>"scale", class: "img-responsive") %>
+  </div>
+    <button class="btn-warning">View Our Gallery</button>
+    </div>
 </div>
