@@ -15,7 +15,8 @@
   </div>
 
   <div class="btn-container">
-    <button class="btn btn-warning center-block">Book Now</button>
+    <%= button_to "Book Now", contact_path, :method => "get", class: "btn btn-warning center-block" %>
+
   </div>
 
   <div class="story-wrapper">
@@ -41,5 +42,6 @@
     <%= cl_image_tag("vegs.jpg", :height => 500, :width=>1600, :crop=>"scale", class: "img-responsive") %>
   </div>
     <button class="btn-warning">View Our Gallery</button>
+    <%= button_to "View Our Gallery", gallery_path, :method => "get", class: "btn-warning" %>
     </div>
 </div>
